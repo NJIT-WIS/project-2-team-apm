@@ -7,4 +7,4 @@ assignees: ''
 Story Points: ''
 ---
 
-**User Story:**
+**User Story and story points**
