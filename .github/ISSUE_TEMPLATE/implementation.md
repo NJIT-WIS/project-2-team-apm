@@ -4,7 +4,7 @@ about: create a report about the task
 title: ''
 labels: implementation
 assignees: ''
-
+Story Points: ''
 ---
 
-**Describe the task**
+**User Story:**
