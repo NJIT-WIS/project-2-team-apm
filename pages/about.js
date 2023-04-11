@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function About() {
+export default function Home() {
   return (
     <>
       <Head>
