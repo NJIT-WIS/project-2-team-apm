@@ -7,6 +7,7 @@ export default function About() {
       <Head>
         <title>MyWebClass.org | About</title>
       </Head>
+
       <div>
         <h1>About</h1>
         <h2>
