@@ -15,7 +15,7 @@ export default function Home() {
             educational opportunities and a practical, hands-on learning experience
         </p>
         <p>
-          <a href="../about">About</a>
+          <a href="./about">About</a>
         </p>
       </section>
     </Layout>
