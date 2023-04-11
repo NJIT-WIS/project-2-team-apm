@@ -10,7 +10,7 @@ export default function About() {
       <div>
         <h1>About</h1>
         <h2>
-          <Link href="/">← Back to home</Link>
+          <a href="./">← Back to home</a>
         </h2>
       </div>
     </>
