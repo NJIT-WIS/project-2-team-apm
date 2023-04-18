@@ -2,8 +2,8 @@
   "site": {
     "title": "MyWebClass.org",
     "base_url": "/",
-    "favicon": "../pages/images/favicon.jpg",
-    "logo": "../pages//images/logo.jpg",
+    "favicon": "https://static.vecteezy.com/system/resources/previews/009/663/676/non_2x/pencil-icon-transparent-free-png.png",
+    "logo": "/images/logo.jpg",
     "logo_width": "50",
     "logo_height": "50",
     "logo_text": "Bookworm Light"
