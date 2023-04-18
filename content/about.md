@@ -1,6 +1,6 @@
 ---
 title: "Our Story"
-meta_title: "About"
+meta_title: "MyWebClass.org | About"
 layout: "about"
 draft: false
 
