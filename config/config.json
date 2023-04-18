@@ -2,8 +2,8 @@
   "site": {
     "title": "MyWebClass.org",
     "base_url": "/",
-    "favicon": "/public/images/favicon.GIF",
-    "logo": "/public/images/logo.GIF",
+    "favicon": "/images/favicon.jpg",
+    "logo": "/images/logo.jpg",
     "logo_width": "50",
     "logo_height": "50",
     "logo_text": "Bookworm Light"
