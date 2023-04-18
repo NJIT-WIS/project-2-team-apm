@@ -3,10 +3,10 @@
     "title": "MyWebClass.org",
     "base_url": "/",
     "favicon": "https://static.vecteezy.com/system/resources/previews/009/663/676/non_2x/pencil-icon-transparent-free-png.png",
-    "logo": "/images/logo.jpg",
+    "logo": "",
     "logo_width": "40",
     "logo_height": "40",
-    "logo_text": "Bookworm Light"
+    "logo_text": ""
   },
 
   "settings": {
