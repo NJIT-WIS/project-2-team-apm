@@ -10,7 +10,7 @@ const About = ({ data }) => {
 
   return (
     <section className="section">
-      <div className="container text-center">
+      <div className="container">
         {image && (
           <div className="img-cover mb-8">
             <Image
@@ -30,6 +30,7 @@ const About = ({ data }) => {
         </div>
       </div>
     </section>
+
   );
 };
 

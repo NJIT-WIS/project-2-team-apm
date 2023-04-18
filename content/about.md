@@ -1,7 +1,6 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, currently at Bookworm"
+title: "Our Story"
 meta_title: "About"
-image: "/images/author.jpg"
 layout: "about"
 draft: false
 
@@ -10,8 +9,25 @@ social:
   facebook: "https://www.facebook.com"
   twitter: "https://www.twitter.com"
   instagram: "https://www.instagram.com"
+  github: "https://github.com/NJIT-WIS/project-2-team-apm"
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget.
+---
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+#### Mission
+Our mission is to create a community of people committed to helping students 
+of all ages and backgrounds succeed in the modern software industry by providing 
+educational opportunities and a practical, hands-on learning experience.
+
+---
+
+#### Values
+* People: We value the people in our community and believe that every student and teacher has the potential to succeed. We strive to create an inclusive and supportive environment where everyone feels welcome to learn and grow.
+* Learning: We believe that learning is a lifelong process and that everyone has something to teach and something to learn. We are committed to providing educational opportunities that help students and teachers gain experience with new technologies and learn advanced software engineering concepts.
+* Efficiency: We recognize that time is a valuable resource, and we strive to make the most of it. We aim to provide a practical, hands-on learning experience that allows students and teachers to develop the skills they need to succeed in the modern software industry quickly.
+* Dependability: We understand the importance of being reliable and consistent. We aim to provide a stable and dependable platform for students and teachers to learn and collaborate.
+Each of these values supports our mission by creating a welcoming and supportive environment for students and teachers to learn and grow. Our focus on people ensures that everyone feels included and valued, and our commitment to learning provides educational opportunities that help students and teachers succeed in the modern software industry. Our emphasis on efficiency and dependability allows us to provide a practical, reliable platform that makes the most of everyone's time.
+
+
+
+---
