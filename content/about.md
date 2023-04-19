@@ -36,5 +36,5 @@ experience as a software engineer, entrepreneur, and 17 years of experience as a
 founded mywebclass.org to help bridge the gap between educators and professionals in the software industry by creating a community 
 of people committed to helping students of all ages and backgrounds succeed.
 
-Thank you for your interest in mywebclass.org. Together, we can create a community of people committed to helping students of all 
+Thank you for your interest in MyWebClass.org. Together, we can create a community of people committed to helping students of all 
 ages and backgrounds succeed in the modern software industry.
