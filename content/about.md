@@ -28,6 +28,13 @@ educational opportunities and a practical, hands-on learning experience.
 * Dependability: We understand the importance of being reliable and consistent. We aim to provide a stable and dependable platform for students and teachers to learn and collaborate.
 Each of these values supports our mission by creating a welcoming and supportive environment for students and teachers to learn and grow. Our focus on people ensures that everyone feels included and valued, and our commitment to learning provides educational opportunities that help students and teachers succeed in the modern software industry. Our emphasis on efficiency and dependability allows us to provide a practical, reliable platform that makes the most of everyone's time.
 
-
-
 ---
+
+#### Origin
+Mywebclass.org was founded in 2023 by Keith Williams, a University Lecturer at New Jersey Institute of Technology with over 30 years of 
+experience as a software engineer, entrepreneur, and 17 years of experience as a university lecturer and in k-12 education. Keith 
+founded mywebclass.org to help bridge the gap between educators and professionals in the software industry by creating a community 
+of people committed to helping students of all ages and backgrounds succeed.
+
+Thank you for your interest in MyWebClass.org. Together, we can create a community of people committed to helping students of all 
+ages and backgrounds succeed in the modern software industry.
