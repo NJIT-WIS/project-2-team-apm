@@ -1,7 +1,8 @@
 import TwSizeIndicator from "@components/TwSizeIndicator";
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
-import dataLayer from "jshint/src/name-stack";
+import Script from 'next/script'
+
 
 const Document = () => {
   // destructuring items from config object
@@ -9,15 +10,22 @@ const Document = () => {
   return (
     <Html lang="en">
       <Head>
-        <!--Google tag (gtag.js)-->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7885XHR5D"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-        gtag('config', 'G-W7885XHR5D');
-        <!--Google tag (gtag.js)-->
-        </script>
+    <div className="container">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-W7885XHR5D');
+        `}
+      </Script>
+    </div>
+
         {/* favicon */}
         <link rel="shortcut icon" href={favicon} />
         {/* theme meta */}
