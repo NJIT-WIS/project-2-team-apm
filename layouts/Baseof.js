@@ -21,6 +21,11 @@ const Base = ({
   return (
     <>
       <Head>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@MyWebClass" />
+        <meta name="twitter:title" content="MywebClass" />
+        <meta name="twitter:description" content="MyWebClass" />
+        <meta name="twitter:image" content="https://html.sammy-codes.com/images/large-profile.jpg" />
         {/* title */}
         <title>
           {plainify(
