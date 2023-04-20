@@ -11,20 +11,19 @@ const Document = () => {
     <Html lang="en">
       <Head>
     <div className="container">
-      {/*Google Analytics*/}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-W7885XHR5D"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-W7885XHR5D');
-        `}
-      </Script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7885XHR5D"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-W7885XHR5D', {
+                page_path: window.location.pathname,
+              });
+            `,
+            }}
+          />
 
         {/* Open Graph tags */}
         <meta property="og:title" content="My page title" />
