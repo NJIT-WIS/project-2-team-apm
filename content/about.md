@@ -37,4 +37,4 @@ founded mywebclass.org to help bridge the gap between educators and professional
 of people committed to helping students of all ages and backgrounds succeed.
 
 Thank you for your interest in MyWebClass.org. Together, we can create a community of people committed to helping students of all 
-ages and backgrounds succeed in the modern software industry. Test to see if this works.
+ages and backgrounds succeed in the modern software industry.
