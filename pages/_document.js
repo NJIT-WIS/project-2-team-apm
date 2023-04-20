@@ -13,7 +13,7 @@ const Document = () => {
     <div className="container">
       {/*Google Analytics*/}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        src="https://www.googletagmanager.com/gtag/js?id=G-W7885XHR5D"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
