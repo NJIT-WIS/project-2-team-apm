@@ -1,0 +1,16 @@
+| issue title                  | story point | issue link                                                                | status   | assigned to | assigned on | completed on | category | status notes |
+|------------------------------|-------------|---------------------------------------------------------------------------|----------|-------------|-------------|--------------|----------|--------------|
+| Accessibility and Compliance | 5 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/11#issue-1672249410 | complete | Michael     | 4/17/23     | 4/18/23      | document |              |
+| Create project document log  | 5 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/19#issue-1675875334 | complete | Michael     | 4/19/23     | 4/19/23      | document |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
+|                              | 8 points    |                                                                           |          |             |             |              |          |              |
