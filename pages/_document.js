@@ -25,8 +25,20 @@ const Document = () => {
           gtag('config', 'G-W7885XHR5D');
         `}
       </Script>
-    </div>
 
+        {/* Open Graph tags */}
+        <meta property="og:title" content="My page title" />
+        <meta property="og:description" content="My page description" />
+        <meta property="og:image" content="https://example.com/my-image.jpg" />
+        <meta property="og:url" content="https://example.com/my-page" />
+        {/* Twitter tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="My page title" />
+        <meta name="twitter:description" content="My page description" />
+        <meta name="twitter:image" content="https://example.com/my-image.jpg" />
+        <meta name="twitter:url" content="https://example.com/my-page" />
+
+    </div>
         {/* favicon */}
         <link rel="shortcut icon" href={favicon} />
         {/* theme meta */}
