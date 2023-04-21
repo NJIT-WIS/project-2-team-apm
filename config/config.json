@@ -2,7 +2,7 @@
   "site": {
     "title": "MyWebClass.org",
     "base_url": "/",
-    "favicon": "https://static.vecteezy.com/system/resources/previews/009/663/676/non_2x/pencil-icon-transparent-free-png.png",
+    "favicon": "favicon.ico",
     "logo": "",
     "logo_width": "",
     "logo_height": "",
@@ -23,7 +23,7 @@
 
   "metadata": {
     "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
+    "meta_image": "/images/favicon.ico",
     "meta_description": "Next Boilerplate"
   }
 }
