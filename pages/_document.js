@@ -11,7 +11,7 @@ const Document = () => {
     <Html lang="en">
       <Head>
         {/* favicon */}
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="shortcut icon" href="images/favicon.ico" />
 
         {/* Open Graph tags */}
         <meta property="og:title" content="My page title" />
