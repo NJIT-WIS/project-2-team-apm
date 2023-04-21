@@ -2,7 +2,7 @@
   "site": {
     "title": "MyWebClass.org",
     "base_url": "/",
-    "favicon": "images/favicon.ico",
+    "favicon": "/images/favicon.ico",
     "logo": "",
     "logo_width": "",
     "logo_height": "",
@@ -23,7 +23,7 @@
 
   "metadata": {
     "meta_author": "Themefisher",
-    "meta_image": "images/favicon.ico",
+    "meta_image": "",
     "meta_description": "Next Boilerplate"
   }
 }
