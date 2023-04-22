@@ -17,9 +17,38 @@
       "url": "/getting-started"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
-
+      "name": "Blog posts",
+      "hasChildren": true,
+      "children": [
+          {
+            "name": "Post 1",
+            "url": "/post-1"
+          },
+        {
+            "name": "Post 2",
+            "url": "/post-2"
+          },
+        {
+            "name": "Post 3",
+            "url": "/post-3"
+          },
+        {
+            "name": "Post 4",
+            "url": "/post-4"
+          },
+        {
+            "name": "Post 5",
+            "url": "/post-5"
+          },
+        {
+            "name": "Post 6",
+            "url": "/post-6"
+          },
+        {
+            "name": "Post 7",
+            "url": "/post-7"
+          }
+        ]
     }
   ],
   "footer": [
