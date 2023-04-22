@@ -5,7 +5,7 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Meet the Team",
       "url": "/about"
     },
     {
@@ -13,19 +13,13 @@
       "url": "/contact"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
-        }
-      ]
+      "name": "Getting Started",
+      "url": "/getting-started"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+
     }
   ],
   "footer": [
