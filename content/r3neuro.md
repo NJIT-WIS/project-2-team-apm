@@ -1,4 +1,4 @@
-[---
+---
 title: "The Science of Learning: How Neuroscience is Shaping Modern Education"
 meta_title: "MyWebClass.org | The Science of Learning: How Neuroscience is Shaping Modern Education"
 layout: "about"
@@ -10,6 +10,8 @@ social:
   twitter: "https://www.twitter.com"
   instagram: "https://www.instagram.com"
   github: "https://github.com/NJIT-WIS/project-2-team-apm"
+---
+
 ---
 
 #### The Science of Learning: How Neuroscience is Shaping Modern Education

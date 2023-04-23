@@ -1,4 +1,4 @@
-[---
+---
 title: "The Effects of Modern Technology on Cognitive Functioning in Students"
 meta_title: "MyWebClass.org | The Effects of Modern Technology on Cognitive Functioning in Students"
 layout: "about"
@@ -10,6 +10,8 @@ social:
   twitter: "https://www.twitter.com"
   instagram: "https://www.instagram.com"
   github: "https://github.com/NJIT-WIS/project-2-team-apm"
+---
+
 ---
 
 #### The Effects of Modern Technology on Cognitive Functioning in Students

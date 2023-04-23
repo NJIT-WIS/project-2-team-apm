@@ -1,4 +1,4 @@
-[---
+---
 title: "Preparing Students for the Future: Skills for the AI-Driven World
 "
 meta_title: "MyWebClass.org | Preparing Students for the Future: Skills for the AI-Driven World
@@ -12,6 +12,8 @@ social:
   twitter: "https://www.twitter.com"
   instagram: "https://www.instagram.com"
   github: "https://github.com/NJIT-WIS/project-2-team-apm"
+---
+
 ---
 
 #### Preparing Students for the Future: Skills for the AI-Driven World

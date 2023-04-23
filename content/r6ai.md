@@ -1,4 +1,4 @@
-[---
+---
 title: "The Impact of Artificial Intelligence on Education and the Workforce"
 meta_title: "MyWebClass.org | The Impact of Artificial Intelligence on Education and the Workforce"
 layout: "about"
@@ -10,6 +10,8 @@ social:
   twitter: "https://www.twitter.com"
   instagram: "https://www.instagram.com"
   github: "https://github.com/NJIT-WIS/project-2-team-apm"
+---
+
 ---
 
 #### The Impact of Artificial Intelligence on Education and the Workforce
