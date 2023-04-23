@@ -45,28 +45,6 @@
             "url": "/post-7"
           }
         ]
-    },
-    {
-      "name": "Email Form",
-      "form": {
-        "action": "/submit-email",
-        "inputs": [
-          {
-            "name": "email",
-            "type": "email",
-            "placeholder": "Enter your email"
-          },
-          {
-            "name": "message",
-            "type": "text",
-            "placeholder": "Enter your message"
-          },
-          {
-            "type": "submit",
-            "value": "Send"
-          }
-        ]
-      }
     }
   ],
   "footer": [
