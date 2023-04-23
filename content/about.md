@@ -1,5 +1,5 @@
 ---
-title: "Our Story"
+title: "Our Mission"
 meta_title: "MyWebClass.org | About"
 layout: "about"
 draft: false
