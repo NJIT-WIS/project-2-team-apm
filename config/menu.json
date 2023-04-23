@@ -9,10 +9,6 @@
       "url": "/about"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
       "name": "Getting Started",
       "url": "/getting-started"
     },
@@ -53,16 +49,8 @@
   ],
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Contact",
+      "name": "Contact Us",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     },
     {
       "name": "Privacy Policy",
