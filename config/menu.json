@@ -5,11 +5,35 @@
       "url": "/"
     },
     {
-      "name": "Meet the Team",
-      "url": "/about"
+      "name": "About",
+      "hasChildren": true,
+      "children": [
+                  {
+                    "name": "Our Mission",
+                     "url": "/about"
+                   },
+                   {
+                      "name": "Our Team",
+                      "url": "/post-7"
+                    }
+                  ]
     },
-    {
-      "name": "Getting Started",
+   {
+      "name": "Resources",
+      "hasChildren": true,
+      "children": [
+        {
+            "name": "Academic Articles",
+            "url": "/mdepage01"
+          },
+        {
+            "name": "Downloadble guides",
+            "url": "/post-7"
+          }
+        ]
+    },
+        {
+      "name": "Services",
       "url": "/getting-started"
     },
     {
@@ -45,6 +69,10 @@
             "url": "/post-7"
           }
         ]
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact"
     }
   ],
   "footer": [
