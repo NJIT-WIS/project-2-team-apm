@@ -1,6 +1,6 @@
----
-title: "Agile and Lean Principles in Education"
-meta_title: "MyWebClass.org | Agile and Lean Principles in Education"
+[---
+title: "Agile Education: A New Approach to Teaching and Learning"
+meta_title: "MyWebClass.org | Agile Education: A New Approach to Teaching and Learning"
 layout: "about"
 draft: false
 
@@ -14,8 +14,7 @@ social:
 
 ---
 
-#### Mission
-Mike page
+#### Agile Education: A New Approach to Teaching and Learning
 
 Agile education is a new approach to teaching and learning that is rapidly gaining popularity around the world. The agile methodology is commonly used in software development to improve the speed and efficiency of the development process. The principles of agile methodology are now being applied to education in order to create a more flexible, collaborative, and personalized learning experience for students.
 Traditional education has been criticized for being too rigid and inflexible. Students are typically grouped together in classrooms according to their age and are taught a set curriculum that is determined by the school or the government. The focus is on memorizing information and passing exams, rather than on developing critical thinking, problem-solving, and collaboration skills.
@@ -32,3 +31,4 @@ There are several examples of schools and educational institutions that have suc
 
 ---
 
+]()
