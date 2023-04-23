@@ -9,10 +9,6 @@
       "url": "/about"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
       "name": "Getting Started",
       "url": "/getting-started"
     },
@@ -49,20 +45,34 @@
             "url": "/post-7"
           }
         ]
+    },
+    {
+      "name": "Email Form",
+      "form": {
+        "action": "/submit-email",
+        "inputs": [
+          {
+            "name": "email",
+            "type": "email",
+            "placeholder": "Enter your email"
+          },
+          {
+            "name": "message",
+            "type": "text",
+            "placeholder": "Enter your message"
+          },
+          {
+            "type": "submit",
+            "value": "Send"
+          }
+        ]
+      }
     }
   ],
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Contact",
+      "name": "Contact Us",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     },
     {
       "name": "Privacy Policy",
