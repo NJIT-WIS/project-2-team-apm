@@ -1,4 +1,4 @@
-[---
+---
 title: "Project-Based Learning: An Effective Strategy for Engaging Students"
 meta_title: "MyWebClass.org | Project-Based Learning: An Effective Strategy for Engaging Students"
 layout: "about"
@@ -10,6 +10,8 @@ social:
   twitter: "https://www.twitter.com"
   instagram: "https://www.instagram.com"
   github: "https://github.com/NJIT-WIS/project-2-team-apm"
+---
+
 ---
 
 #### Project-Based Learning: An Effective Strategy for Engaging Students

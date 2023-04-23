@@ -37,7 +37,7 @@
       "url": "/getting-started"
     },
     {
-      "name": "Blog posts",
+      "name": "Blogs",
       "hasChildren": true,
       "children": [
           {
@@ -79,48 +79,48 @@
       "hasChildren": true,
       "children": [
           {
-            "name": "Agile Education: A New Approach to Teaching and Learning",
-            "url": "/mdepage01"
+            "name": "Agile Education",
+            "url": "/r1agile"
           },
         {
-            "name": "Lean Thinking in the Classroom: An Overview and Case Studies",
-            "url": "/post-2"
+            "name": "Lean Thinking in Classroom",
+            "url": "/r2lean"
           },
         {
-            "name": "The Science of Learning: How Neuroscience is Shaping Modern Education",
-            "url": "/post-3"
+            "name": "The Science of Learning",
+            "url": "/r3neuro"
           },
         {
-            "name": "Neuroplasticity and Its Implications for Education",
-            "url": "/post-4"
+            "name": "Neuroplasticity and Its Implications",
+            "url": "/r4neuro"
           },
         {
-            "name": "Preparing Students for the Future: Skills for the AI-Driven World",
-            "url": "/post-5"
+            "name": "Students Skills for the AI-Driven World",
+            "url": "/r5ai"
           },
         {
-            "name": "The Impact of Artificial Intelligence on Education and the Workforce",
-            "url": "/post-6"
+            "name": "Impact of AI on Education",
+            "url": "/r6ai"
           },
         {
-            "name": "Interdisciplinary Learning: Bridging the Gap between Subjects",
-            "url": "/post-7"
+            "name": "Interdisciplinary Learning",
+            "url": "/r7teach"
           },
          {
-            "name": "Project-Based Learning: An Effective Strategy for Engaging Students",
-            "url": "/post-7"
+            "name": "Project-Based Learning",
+            "url": "/r8teach"
           },
          {
-            "name": "Personalized Learning: Tailoring Education to Individual Needs",
-            "url": "/post-7"
+            "name": "Personalized Learning",
+            "url": "/r9teach"
           },
          {
-            "name": "The Effects of Modern Technology on Cognitive Functioning in Students",
-            "url": "/post-7"
+            "name": "The Effects of Modern Technology in Students",
+            "url": "/r10cognitive"
           },
          {
-            "name": "Supporting Mental Health and Well-being in the Classroom",
-            "url": "/post-7"
+            "name": "Supporting Mental Health in the Classroom",
+            "url": "/r11cognitive"
           }
         ]
     }

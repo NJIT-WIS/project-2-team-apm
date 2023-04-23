@@ -1,4 +1,4 @@
-[---
+---
 title: "Neuroplasticity and Its Implications for Education"
 meta_title: "MyWebClass.org | Neuroplasticity and Its Implications for Education"
 layout: "about"

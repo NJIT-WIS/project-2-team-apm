@@ -1,4 +1,4 @@
-[---
+---
 title: "Supporting Mental Health and Well-being in the Classroom"
 meta_title: "MyWebClass.org | Supporting Mental Health and Well-being in the Classroom"
 layout: "about"
@@ -10,6 +10,8 @@ social:
   twitter: "https://www.twitter.com"
   instagram: "https://www.instagram.com"
   github: "https://github.com/NJIT-WIS/project-2-team-apm"
+---
+
 ---
 
 #### Supporting Mental Health and Well-being in the Classroom

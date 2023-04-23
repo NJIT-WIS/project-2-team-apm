@@ -1,4 +1,4 @@
-[---
+---
 title: "Personalized Learning: Tailoring Education to Individual Needs"
 meta_title: "MyWebClass.org | Personalized Learning: Tailoring Education to Individual Needs"
 layout: "about"
@@ -10,6 +10,8 @@ social:
   twitter: "https://www.twitter.com"
   instagram: "https://www.instagram.com"
   github: "https://github.com/NJIT-WIS/project-2-team-apm"
+---
+
 ---
 
 #### Personalized Learning: Tailoring Education to Individual Needs
