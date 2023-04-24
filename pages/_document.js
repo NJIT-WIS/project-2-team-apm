@@ -1,15 +1,14 @@
 import TwSizeIndicator from "@components/TwSizeIndicator";
 import config from "@config/config.json";
-import { Head, Html, Main, NextScript } from "next/document";
+import { Head as DocumentHead, Html, NextScript } from "next/document";
 import Script from 'next/script'
-import Document, { Head, Main, NextScript } from 'next/document';
 
-const Document = () => {
+const CustomDocument = () => {
   // destructuring items from config object
   const { favicon } = config.site;
   return (
     <Html lang="en">
-      <Head>
+      <DocumentHead>
         {/* favicon */}
         <link rel="shortcut icon" href="images/favicon.ico" />
 
@@ -71,7 +70,7 @@ const Document = () => {
             }}
           />
     </div>
-      </Head>
+      </DocumentHead>
       <body>
 
           <noscript
@@ -87,7 +86,7 @@ const Document = () => {
             }}
           />
 
-        <Main />
+        <main />
         <TwSizeIndicator />
         <NextScript />
       </body>
@@ -95,4 +94,4 @@ const Document = () => {
   );
 };
 
-export default Document;
+export default CustomDocument;
