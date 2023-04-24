@@ -1,27 +1,23 @@
 ---
 
-title: "Personalized Learning"
+title: "EdSurge: Artificial Intelligence is Coming to Higher Education. Are We Ready?"
 description: "meta description"
 date: 2023-04-21T05:00:00Z
-image: "images/posts/post1.jpg"
-categories: ["education"]
+image: "images/posts/b7.jpg"
+categories: ["education", "ai"]
 authors: ["Mark Dinn"]
-tags: ["teaching", "ai"]
+tags: ["Teaching", "Ai", "Personalized", "Learning"]
 draft: false
 
-# social sites
-social:
-  facebook: "https://www.facebook.com"
-  twitter: "https://www.twitter.com"
-  instagram: "https://www.instagram.com"
-  github: "https://github.com/NJIT-WIS/project-2-team-apm"
 ---
 
 ---
 
-#### Personalized Learning
+#### EdSurge: Artificial Intelligence is Coming to Higher Education. Are We Ready?
 
-One of the most promising applications of AI in education is personalized learning. With AI-powered adaptive learning systems, students can receive tailored instruction that is tailored to their individual needs and learning styles. These systems use machine learning algorithms to analyze data on student performance and adjust the learning experience in real-time, providing students with the support they need to succeed.
+EdSurge is a blog that covers the intersection of technology and education. This post looks at how AI is starting to make its way into higher education, from automated grading systems to personalized learning. The post also examines the challenges that come with integrating AI into the classroom, such as the need for faculty training and the ethical considerations of using AI to make decisions about student learning.
+
+
 
 
 ---
