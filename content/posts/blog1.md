@@ -3,18 +3,12 @@
 title: "Personalized Learning"
 description: "meta description"
 date: 2023-04-21T05:00:00Z
-image: "images/posts/b1.jpg"
-categories: ["education"]
+image: "images/posts/post1.jpg"
+categories: ["education", "ai"]
 authors: ["Mark Dinn"]
-tags: ["teaching", "ai"]
+tags: ["Teaching", "Ai", "Personalized", "Learning"]
 draft: false
 
-# social sites
-social:
-  facebook: "https://www.facebook.com"
-  twitter: "https://www.twitter.com"
-  instagram: "https://www.instagram.com"
-  github: "https://github.com/NJIT-WIS/project-2-team-apm"
 ---
 
 ---
