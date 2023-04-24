@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "MyWebClass.org",
-    "base_url": "/home",
+    "base_url": "/",
     "favicon": "/images/favicon.ico",
     "logo": "",
     "logo_width": "",
