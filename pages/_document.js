@@ -1,15 +1,14 @@
 import TwSizeIndicator from "@components/TwSizeIndicator";
 import config from "@config/config.json";
-import { Head, Html, Main, NextScript } from "next/document";
+import { Head as DocumentHead, Html, NextScript } from "next/document";
 import Script from 'next/script'
-import Document, { Head, Main, NextScript } from 'next/document';
 
-const Document = () => {
+const CustomDocument = () => {
   // destructuring items from config object
   const { favicon } = config.site;
   return (
     <Html lang="en">
-      <Head>
+      <DocumentHead>
         {/* favicon */}
         <link rel="shortcut icon" href="images/favicon.ico" />
 
@@ -28,6 +27,23 @@ const Document = () => {
           content="#000"
         />
         </div>
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                  gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'analytics_storage': 'denied',
+                    'personalization_storage': 'denied'
+                  });
+                  gtag("set", "ads_data_redaction", true);
+                }
+              `
+            }}
+          />
+
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -35,7 +51,7 @@ const Document = () => {
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-KNDDNWP');
+                })(window,document,'script','dataLayer','GTM-MFP2RZL');
               `,
             }}
           />
@@ -54,14 +70,14 @@ const Document = () => {
             }}
           />
     </div>
-      </Head>
+      </DocumentHead>
       <body>
 
           <noscript
             dangerouslySetInnerHTML={{
               __html: `
                 <iframe
-                  src="https://www.googletagmanager.com/ns.html?id=GTM-KNDDNWP"
+                  src="https://www.googletagmanager.com/ns.html?id=GTM-MFP2RZL"
                   height="0"
                   width="0"
                   style="display:none;visibility:hidden"
@@ -70,7 +86,7 @@ const Document = () => {
             }}
           />
 
-        <Main />
+        <main />
         <TwSizeIndicator />
         <NextScript />
       </body>
@@ -78,4 +94,4 @@ const Document = () => {
   );
 };
 
-export default Document;
+export default CustomDocument;
