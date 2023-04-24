@@ -1,22 +1,21 @@
 ---
 
-title: "TeachThought: How Artificial Intelligence Is Impacting Education"
+title: "Intelligent Tutoring Systems"
 description: "meta description"
 date: 2023-04-21T05:00:00Z
-image: "images/posts/b4.jpg"
+image: "images/posts/b2.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
-tags: ["Teaching", "Ai", "Personalized", "Learning"]
+tags: ["Teaching", "Ai", "Learning"]
 draft: false
 
 ---
 
 ---
 
-#### TeachThought: How Artificial Intelligence Is Impacting Education
+#### Intelligent Tutoring Systems
 
-TeachThought is a blog dedicated to exploring new ideas in education. This post examines the ways in which AI is impacting the field of education, from personalized learning to automating administrative tasks. The post also looks at the potential benefits and drawbacks of using AI in the classroom.
-
+Another exciting application of AI in education is intelligent tutoring systems. These systems use natural language processing and machine learning algorithms to interact with students in a conversational way, providing personalized feedback and guidance. Intelligent tutoring systems can adapt to each student's level of knowledge and provide them with the resources they need to improve.
 
 
 
