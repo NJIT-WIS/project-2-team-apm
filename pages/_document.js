@@ -28,6 +28,23 @@ const Document = () => {
           content="#000"
         />
         </div>
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                  gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'analytics_storage': 'denied',
+                    'personalization_storage': 'denied'
+                  });
+                  gtag("set", "ads_data_redaction", true);
+                }
+              `
+            }}
+          />
+
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -35,7 +52,7 @@ const Document = () => {
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-KNDDNWP');
+                })(window,document,'script','dataLayer','GTM-MFP2RZL');
               `,
             }}
           />
@@ -61,7 +78,7 @@ const Document = () => {
             dangerouslySetInnerHTML={{
               __html: `
                 <iframe
-                  src="https://www.googletagmanager.com/ns.html?id=GTM-KNDDNWP"
+                  src="https://www.googletagmanager.com/ns.html?id=GTM-MFP2RZL"
                   height="0"
                   width="0"
                   style="display:none;visibility:hidden"
