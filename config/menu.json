@@ -83,10 +83,6 @@
         ]
     },
     {
-      "name": "Contact Us",
-      "url": "/contact"
-    },
-    {
       "name": "Academic Articles",
       "hasChildren": true,
       "children": [
@@ -133,8 +129,12 @@
          {
             "name": "Supporting Mental Health in the Classroom",
             "url": "/r11cognitive"
-          }
-        ]
+          },
+            {
+      "name": "Contact Us",
+      "url": "/contact"
+    }
+      ]
     }
   ],
   "footer": [
