@@ -42,43 +42,43 @@
       "children": [
           {
             "name": "Blog 1",
-            "url": "/blog1"
+            "url": "/blog1.md"
           },
         {
             "name": "Blog 2",
-            "url": "/blog2"
+            "url": "/blog2.md"
           },
         {
             "name": "Blog 3",
-            "url": "/post-3"
+            "url": "/blogs3.md"
           },
         {
             "name": "Blog 4",
-            "url": "/post-4"
+            "url": "/blogs4.md"
           },
         {
             "name": "Blog 5",
-            "url": "/post-5"
+            "url": "/blogs5.md"
           },
         {
             "name": "Blog 6",
-            "url": "/blog6"
+            "url": "/blog6.md"
           },
         {
             "name": "Blog 7",
-            "url": "/blog7"
+            "url": "/blog7.md"
           },
         {
             "name": "Blog 8",
-            "url": "/blog8"
+            "url": "/blog8.md"
           },
         {
             "name": "Blog 9",
-            "url": "/blog9"
+            "url": "/blog9.md"
           },
         {
             "name": "Blog 10",
-            "url": "/blog10"
+            "url": "/blog10.md"
           }
         ]
     },
