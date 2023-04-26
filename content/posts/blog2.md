@@ -3,7 +3,7 @@
 title: "Intelligent Tutoring Systems"
 description: "meta description"
 date: 2023-04-21T05:00:00Z
-image: "images/posts/b2.jpg"
+image: "/${images/posts/b2.jpg}"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
 tags: ["Teaching", "Ai", "Learning"]
