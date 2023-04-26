@@ -7,7 +7,6 @@ import Default from "@layouts/Default";
 import PostSingle from "@layouts/PostSingle";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 const { blog_folder } = config.settings;
-import SEO from "@layouts/components/SEO";
 
 // for all regular pages
 const RegularPages = ({ slug, data, postSlug, authors, posts }) => {
@@ -24,13 +23,6 @@ const RegularPages = ({ slug, data, postSlug, authors, posts }) => {
       noindex={noindex}
       canonical={canonical}
     >
-      {/* add SEO component */}
-      <SEO
-        title={title}
-        description={description}
-        image={image}
-        url={`https://njit-wis.github.io/project-2-team-apm/${slug}`}
-      />
       {/* single post */}
       {postSlug.includes(slug) ? (
         <PostSingle slug={slug} post={data} authors={authors} posts={posts} />
