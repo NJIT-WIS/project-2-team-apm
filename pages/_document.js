@@ -7,6 +7,14 @@ const CustomDocument = () => {
   // destructuring items from config object
   const { favicon } = config.site;
   return (
+    // Twitter Card and OpenGraph MetaTags
+    <SEO
+      title={title}
+      description={description}
+      image={image}
+      url="https://njit-wis.github.io/project-2-team-apm/{slug}"
+    />
+
     <Html lang="en">
       <DocumentHead>
         {/* favicon */}
