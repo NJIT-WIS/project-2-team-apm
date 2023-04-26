@@ -35,7 +35,7 @@ const Posts = ({ title, description, image, categories, tags, posts, authors, cl
               <span className="block">{post.frontmatter.title}</span>
             </h3>
             <p className="text-text">
-              {post.content && post.content.slice(0, Number(summary_length))}...
+              {post.content}
             </p>
           </div>
         ))}
