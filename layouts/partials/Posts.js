@@ -5,15 +5,15 @@ import Image from "next/image";
 import Link from "next/link";
 import SEO from "../components/SEO";
 
-const Posts = ({ posts, authors, className }) => {
+const Posts = ({ title, description, image, categories, tags, posts, authors, className, slug }) => {
   const { summary_length } = config.settings;
   return (
     <>
       <SEO
-        title="Blog Posts"
-        description="Testing something."
-        image="/images/01.jpg"
-        url="https://njit-wis.github.io/project-2-team-apm/"
+        title={title}
+        description={description}
+        image={image}
+        url="https://njit-wis.github.io/project-2-team-apm/{slug}"
       />
       <div className={`row space-y-16 ${className}`}>
         {posts.map((post, i) => (
