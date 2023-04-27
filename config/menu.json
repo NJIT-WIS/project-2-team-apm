@@ -13,8 +13,16 @@
                      "url": "/about"
                    },
                    {
-                      "name": "Our Team",
-                      "url": "/post-3"
+                      "name": "Michael Ellis",
+                      "url": "/teammike"
+                    },
+                          {
+                      "name": "Pil",
+                      "url": "/teampil"
+                    },
+                          {
+                      "name": "Avneet",
+                      "url": "/teamavneet"
                     }
                   ]
     },
