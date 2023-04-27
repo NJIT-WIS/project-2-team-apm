@@ -13,8 +13,16 @@
                      "url": "/about"
                    },
                    {
-                      "name": "Our Team",
-                      "url": "/post-3"
+                      "name": "Michael Ellis",
+                      "url": "/teammike"
+                    },
+                           {
+                      "name": "Avneet Singh",
+                      "url": "/teamavneet"
+                    },
+                           {
+                      "name": "Pil Jang",
+                      "url": "/teampil"
                     }
                   ]
     },
@@ -31,10 +39,6 @@
             "url": "/post-7"
           }
         ]
-    },
-        {
-      "name": "Services",
-      "url": "/getting-started"
     },
     {
       "name": "Blogs",

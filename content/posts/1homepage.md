@@ -3,7 +3,7 @@
 title: "Welcome to MyWebClass"
 description: "meta description"
 date: 2023-04-21T05:00:00Z
-image: "images/posts/b1.jpg"
+image: "/images/posts/b1.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
 tags: ["Teaching", "Ai", "Personalized", "Learning"]
