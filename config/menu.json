@@ -40,7 +40,10 @@
           }
         ]
     },
-
+        {
+      "name": "Services",
+      "url": "/getting-started"
+    },
     {
       "name": "Blogs",
       "hasChildren": true,
