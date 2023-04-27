@@ -2,7 +2,7 @@
 title: "Avneet Singh"
 meta_title: "Team Member Avneet Singh"
 layout: "about"
-image: "/images/authors/avneet-singh.jpg"
+image: "images/authors/avneet-singh.jpg"
 draft: false
 
 # social sites

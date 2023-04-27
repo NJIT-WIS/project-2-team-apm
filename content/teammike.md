@@ -2,7 +2,7 @@
 title: "Michael Ellis"
 meta_title: "Team Member Michael Ellis"
 layout: "about"
-image: "/images/authors/mike-ellis.jpg"
+image: "images/authors/mike-ellis.jpg"
 draft: false
 
 # social sites
