@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 const SEO = ({ title, description, image, url }) => {
   const siteName = 'MyWebClass.org';
@@ -6,7 +7,7 @@ const SEO = ({ title, description, image, url }) => {
   return (
     <Head>
       {/* Twitter Card meta tags */}
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />

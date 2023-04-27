@@ -3,7 +3,7 @@
 title: "MyWebClass"
 description: "meta description"
 date: 2023-04-21T05:00:00Z
-image: "images/posts/b1.jpg"
+image: "/images/posts/b1.jpg"
 categories: ["MyWebClass"]
 authors: ["Mark Dinn"]
 tags: ["MyWebClass"]
