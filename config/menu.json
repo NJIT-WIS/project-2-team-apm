@@ -34,7 +34,11 @@
             "name": "Download our repository",
             "url": "/getting-started"
           },
-        ]
+                  {
+            "name": "Blog 1",
+            "url": "/blog1"
+          }
+      ]
     },
     {
       "name": "Blogs",
