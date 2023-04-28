@@ -55,5 +55,5 @@ That's it! You're now ready to start working with the MyWebClass project. If you
 
 #### Having issues? Let us know!
 
-Submit any issues you're encountering [here]() and we'll make sure someone on our capable team helps you find a solution. 
+Submit any issues you're encountering [here](https://github.com/NJIT-WIS/project-2-team-apm/issues/new?assignees=&labels=help+wanted&template=installation-issues.md&title=Installation+issues) and we'll make sure someone on our capable team helps you find a solution. 
 

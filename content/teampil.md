@@ -2,7 +2,7 @@
 title: "Pil Jang"
 meta_title: "Team Member Pil Jang"
 layout: "about"
-image: "/images/authors/pil-jang.jpg"
+image: "images/authors/pil-jang.jpg"
 draft: false
 
 # social sites

@@ -31,14 +31,14 @@
       "hasChildren": true,
       "children": [
         {
-            "name": "Academic Articles",
-            "url": "/mdepage01"
+            "name": "Download our repository",
+            "url": "/getting-started"
           },
-        {
-            "name": "Downloadble guides",
-            "url": "/post-7"
+                  {
+            "name": "Blog 1",
+            "url": "/blog1"
           }
-        ]
+      ]
     },
     {
       "name": "Blogs",
