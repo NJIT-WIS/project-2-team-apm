@@ -7,11 +7,12 @@ import Link from "next/link";
 
 const Footer = () => {
   const { copyright } = config.params;
+
   return (
     <footer className="section bg-theme-dark">
-      <div className="container text-center">
+      <div className="container flex flex-wrap items-center justify-between text-center md:text-left">
         {/* footer menu */}
-        <ul className="mb-8 space-x-4">
+        <ul className="flex-grow-0 mb-8 md:w-2/3 md:mb-0 space-x-4">
           {menu.footer.map((menu) => (
             <li className="inline-block" key={menu.name}>
               <Link href={menu.url} className="p-4 text-light hover:text-white">
@@ -20,9 +21,21 @@ const Footer = () => {
             </li>
           ))}
         </ul>
-        {/* social icons */}
-        <Social source={social} className="social-icons mb-8" />`
-        {/* copyright */}
+        {/* email submission */}
+        <form action="https://formspree.io/f/{your_email_here}" method="POST" className="mb-8 md:w-1/3 md:mb-0">
+          <label htmlFor="email" className="block mb-2 text-light font-bold">Subscribe to our newsletter:</label>
+          <div className="flex items-center">
+            <input type="email" id="email" name="email" placeholder="Your email address" className="rounded-l-lg px-4 py-2 flex-1 bg-white" />
+            <button type="submit" className="rounded-r-lg px-4 py-2 bg-theme text-light hover:bg-theme-light transition-colors duration-300">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      {/* social icons */}
+      <div className="container flex flex-wrap items-center justify-center mb-2">
+        <Social source={social} className="social-icons mr-4" />
+      </div>
+      {/* copyright */}
+      <div className="container text-center">
         {markdownify(copyright, "p", "text-light")}
       </div>
     </footer>
