@@ -4,9 +4,19 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
+import { addSubscriber } from "/lib/sendEmailToMailChimp"
+
 
 const Footer = () => {
   const { copyright } = config.params;
+
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    const emailAddress = event.target.email.value;
+    await addSubscriber(emailAddress);
+    alert('Thank you for subscribing to our newsletter!');
+    event.target.reset();
+  }
 
   return (
     <footer className="section bg-theme-dark">
@@ -22,7 +32,7 @@ const Footer = () => {
           ))}
         </ul>
         {/* email submission */}
-        <form action="https://formspree.io/f/{your_email_here}" method="POST" className="mb-8 md:w-1/3 md:mb-0">
+        <form onSubmit={handleFormSubmit} className="mb-8 md:w-1/3 md:mb-0">
           <label htmlFor="email" className="block mb-2 text-light font-bold">Subscribe to our newsletter:</label>
           <div className="flex items-center">
             <input type="email" id="email" name="email" placeholder="Your email address" className="rounded-l-lg px-4 py-2 flex-1 bg-white" />
