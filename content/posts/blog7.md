@@ -6,12 +6,12 @@ date: 2023-04-21T05:00:00Z
 image: "images/posts/b7.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
-tags: ["Teaching", "Ai", "Learning"]
+tags: ["Teaching", "Ai", "Grading", "Faculty"]
 draft: false
 
 ---
 
----
+
 
 #### EdSurge: Artificial Intelligence is Coming to Higher Education. Are We Ready?
 

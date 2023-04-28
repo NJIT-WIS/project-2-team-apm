@@ -6,12 +6,12 @@ date: 2023-04-21T05:00:00Z
 image: "images/posts/b4.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
-tags: ["Teaching", "Ai", "Learning"]
+tags: ["Teaching", "Ai", "Automation"]
 draft: false
 
 ---
 
----
+
 
 #### TeachThought: How Artificial Intelligence Is Impacting Education
 

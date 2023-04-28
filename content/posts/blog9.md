@@ -6,12 +6,12 @@ date: 2023-04-21T05:00:00Z
 image: "images/posts/b9.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
-tags: ["Teaching", "Ai", "Learning"]
+tags: ["Teaching", "Ai", "EdTech"]
 draft: false
 
 ---
 
----
+
 
 #### EdTech Digest: The Rise of Artificial Intelligence in Education
 
