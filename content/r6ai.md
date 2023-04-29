@@ -3,6 +3,12 @@ title: "The Impact of Artificial Intelligence on Education and the Workforce"
 meta_title: "MyWebClass.org | The Impact of Artificial Intelligence on Education and the Workforce"
 layout: "about"
 draft: false
+Keywords tag: "Neuroplasticity, Brain plasticity, Lifelong learning, Education and neuroscience, Learning and development Teaching methodologies
+Brain rewiring,
+Cognitive training,
+Neural connections,
+Learning outcomes,"
+Robots tag: "index, follow"
 
 # social sites
 social:

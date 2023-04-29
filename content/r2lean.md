@@ -3,6 +3,7 @@ title: "Lean Thinking in the Classroom: An Overview and Case Studies"
 meta_title: "MyWebClass.org | Lean Thinking in the Classroom: An Overview and Case Studies"
 layout: "about"
 draft: false
+tags: ["Lean", "Education", "Collaboration"]
 
 # social sites
 social:
