@@ -46,6 +46,12 @@ We use Google Analytics to collect information about your use of our website. Go
                         information collected by Google Analytics about your visits to our website is restricted by the
                         Google Analytics Terms of Use and the Google Privacy Policy.
 
+#### ARIA
+
+We use ARIA on websites to improve their accessibility for people with disabilities. ARIA provides additional information 
+about the purpose and function of HTML elements, making it easier for assistive technologies such as screen readers, 
+keyboard-only navigation, or other assistive technologies to understand and convey that information to the user.
+
 #### Data Retention and Security
 
 We retain the information we collect for as long as necessary to fulfill the purposes for which
