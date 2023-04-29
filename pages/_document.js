@@ -1,117 +1,6 @@
-// import TwSizeIndicator from "@components/TwSizeIndicator";
-// import config from "@config/config.json";
-// import { Head as DocumentHead, Html, NextScript } from "next/document";
-// import Script from 'next/script'
-//
-// const CustomDocument = () => {
-//   // destructuring items from config object
-//   const { favicon } = config.site;
-//   return (
-//     <Html lang="en">
-//       <DocumentHead>
-//         {/* favicon */}
-//         <link rel="shortcut icon" href="images/favicon.ico" />
-//
-//         <div>
-//         {/* theme meta */}
-//         <meta name="theme-name" content="bookworm-light-nextjs" />
-//         <meta name="msapplication-TileColor" content="#000000" />
-//         <meta
-//           name="theme-color"
-//           media="(prefers-color-scheme: light)"
-//           content="#fff"
-//         />
-//         <meta
-//           name="theme-color"
-//           media="(prefers-color-scheme: dark)"
-//           content="#000"
-//         />
-//         </div>
-//         {/* Google Analytics Start */}
-//           <script
-//             dangerouslySetInnerHTML={{
-//               __html: `
-//                 window.dataLayer = window.dataLayer || [];
-//                 function gtag() {
-//                   gtag('consent', 'default', {
-//                     'ad_storage': 'denied',
-//                     'analytics_storage': 'denied',
-//                     'personalization_storage': 'denied'
-//                   });
-//                   gtag("set", "ads_data_redaction", true);
-//                 }
-//               `
-//             }}
-//           />
-//     <div className="container">
-//           <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7885XHR5D"></script>
-//           <script
-//             dangerouslySetInnerHTML={{
-//               __html: `
-//               window.dataLayer = window.dataLayer || [];
-//               function gtag(){dataLayer.push(arguments);}
-//               gtag('js', new Date());
-//               gtag('config', 'G-W7885XHR5D', {
-//                 page_path: window.location.pathname,
-//               });
-//             `,
-//             }}
-//           />
-//         {/* Google Analytics End */}
-//     </div>
-// <script
-//   dangerouslySetInnerHTML={{
-//     __html: `
-//       window.dataLayer = window.dataLayer || [];
-//       function gtag() {
-//         gtag('consent', 'default', {
-//           'ad_storage': 'denied',
-//           'analytics_storage': 'denied',
-//           'personalization_storage': 'denied'
-//         });
-//         gtag('set', 'ads_data_redaction', true);
-//       }
-//     `
-//   }}
-// />
-// {/* Google Tag Manager */}
-// <script
-//   dangerouslySetInnerHTML={{
-//     __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-//     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-//     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-//     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-//     })(window,document,'script','dataLayer','GTM-MFP2RZL');`,
-//   }}
-// />
-// {/* End Google Tag Manager */}
-//
-//
-//       </DocumentHead>
-//       <body>
-//           {/* Google Tag Manager (noscript) */}
-//           <noscript>
-//             <iframe
-//               src="https://www.googletagmanager.com/ns.html?id=GTM-MFP2RZL"
-//               height="0"
-//               width="0"
-//               style={{ display: 'none', visibility: 'hidden' }}
-//             ></iframe>
-//           </noscript>
-//           {/* End Google Tag Manager (noscript) */}
-//         <main />
-//         <TwSizeIndicator />
-//         <NextScript />
-//       </body>
-//     </Html>
-//   );
-// };
-//
-// export default CustomDocument;
-
 import TwSizeIndicator from "@components/TwSizeIndicator";
 import config from "@config/config.json";
-import { Head as DocumentHead, Html, Main, NextScript } from "next/document";
+import { Head as DocumentHead, Html, NextScript } from "next/document";
 import Script from 'next/script'
 
 const CustomDocument = () => {
@@ -120,86 +9,97 @@ const CustomDocument = () => {
   return (
     <Html lang="en">
       <DocumentHead>
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'analytics_storage': 'denied',
+          'personalization_storage': 'denied'
+        });
+        gtag('set', 'ads_data_redaction', true);
+      }
+    `
+  }}
+/>
+
+{/* Google Tag Manager */}
+<script
+  dangerouslySetInnerHTML={{
+    __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MFP2RZL');`,
+  }}
+/>
+{/* End Google Tag Manager */}
+
         {/* favicon */}
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="images/favicon.ico" />
 
         <div>
-          {/* theme meta */}
-          <meta name="theme-name" content="bookworm-light-nextjs" />
-          <meta name="msapplication-TileColor" content="#000000" />
-          <meta
-            name="theme-color"
-            media="(prefers-color-scheme: light)"
-            content="#fff"
-          />
-          <meta
-            name="theme-color"
-            media="(prefers-color-scheme: dark)"
-            content="#000"
-          />
-        </div>
-        {/* Google Analytics */}
-        <Script
-          id="ga-script"
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        {/* theme meta */}
+        <meta name="theme-name" content="bookworm-light-nextjs" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: light)"
+          content="#fff"
         />
-        <Script
-          id="ga-config"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: dark)"
+          content="#000"
+        />
+        </div>
+        {/* Google Analytics Start */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                  gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'analytics_storage': 'denied',
+                    'personalization_storage': 'denied'
+                  });
+                  gtag("set", "ads_data_redaction", true);
+                }
+              `
+            }}
+          />
+    <div className="container">
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7885XHR5D"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
               window.dataLayer = window.dataLayer || [];
-              function gtag() {
-                gtag('consent', 'default', {
-                  'ad_storage': 'denied',
-                  'analytics_storage': 'denied',
-                  'personalization_storage': 'denied'
-                });
-                gtag("set", "ads_data_redaction", true);
-              }
+              function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+              gtag('config', 'G-W7885XHR5D', {
                 page_path: window.location.pathname,
               });
             `,
-          }}
-        />
-        <noscript>
-          <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          ></iframe>
-        </noscript>
-        {/* End Google Analytics */}
+            }}
+          />
+        {/* Google Analytics End */}
+    </div>
 
-        {/* Google Tag Manager */}
-        <Script
-          id="gtm-script"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','${process.env.NEXT_PUBLIC_GTM_ID}');`,
-          }}
-        />
-        {/* End Google Tag Manager */}
       </DocumentHead>
       <body>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID}`}
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          ></iframe>
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
+          {/* Google Tag Manager (noscript) */}
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-MFP2RZL"
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            ></iframe>
+          </noscript>
+          {/* End Google Tag Manager (noscript) */}
         <main />
         <TwSizeIndicator />
         <NextScript />
