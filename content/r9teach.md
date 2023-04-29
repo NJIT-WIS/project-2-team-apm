@@ -3,6 +3,12 @@ title: "Personalized Learning: Tailoring Education to Individual Needs"
 meta_title: "MyWebClass.org | Personalized Learning: Tailoring Education to Individual Needs"
 layout: "about"
 draft: false
+Keywords tag: "Neuroplasticity, Brain plasticity, Lifelong learning, Education and neuroscience, Learning and development Teaching methodologies
+Brain rewiring,
+Cognitive training,
+Neural connections,
+Learning outcomes,"
+Robots tag: "index, follow"
 
 # social sites
 social:

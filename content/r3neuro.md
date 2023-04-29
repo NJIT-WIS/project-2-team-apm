@@ -3,6 +3,10 @@ title: "The Science of Learning: How Neuroscience is Shaping Modern Education"
 meta_title: "MyWebClass.org | The Science of Learning: How Neuroscience is Shaping Modern Education"
 layout: "about"
 draft: false
+tags: ["Neuroscience", "Education", "Brain"]
+Description tag: "Explore how the brain processes and retains information in the field of educational neuroscience. Discover insights into how students learn and how educators are using this information to shape modern education."
+Keywords tag: "Science of Learning, Educational Neuroscience, Brain Processing, Retaining Information, Teaching Strategies, Active Learning, Brain Breaks"
+Robots tag: "index, follow"
 
 # social sites
 social:

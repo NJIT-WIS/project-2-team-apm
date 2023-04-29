@@ -3,6 +3,12 @@ title: "Project-Based Learning: An Effective Strategy for Engaging Students"
 meta_title: "MyWebClass.org | Project-Based Learning: An Effective Strategy for Engaging Students"
 layout: "about"
 draft: false
+Keywords tag: "Neuroplasticity, Brain plasticity, Lifelong learning, Education and neuroscience, Learning and development Teaching methodologies
+Brain rewiring,
+Cognitive training,
+Neural connections,
+Learning outcomes,"
+Robots tag: "index, follow"
 
 # social sites
 social:

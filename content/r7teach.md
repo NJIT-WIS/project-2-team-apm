@@ -3,7 +3,12 @@ title: "Interdisciplinary Learning: Bridging the Gap between Subjects"
 meta_title: "MyWebClass.org | Interdisciplinary Learning: Bridging the Gap between Subjects"
 layout: "about"
 draft: false
-
+Keywords tag: "Neuroplasticity, Brain plasticity, Lifelong learning, Education and neuroscience, Learning and development Teaching methodologies
+Brain rewiring,
+Cognitive training,
+Neural connections,
+Learning outcomes,"
+Robots tag: "index, follow"
 # social sites
 social:
   facebook: "https://www.facebook.com"

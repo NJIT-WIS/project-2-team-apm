@@ -3,6 +3,12 @@ title: "The Effects of Modern Technology on Cognitive Functioning in Students"
 meta_title: "MyWebClass.org | The Effects of Modern Technology on Cognitive Functioning in Students"
 layout: "about"
 draft: false
+Keywords tag: "Neuroplasticity, Brain plasticity, Lifelong learning, Education and neuroscience, Learning and development Teaching methodologies
+Brain rewiring,
+Cognitive training,
+Neural connections,
+Learning outcomes,"
+Robots tag: "index, follow"
 
 # social sites
 social:
