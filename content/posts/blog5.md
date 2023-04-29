@@ -6,12 +6,12 @@ date: 2023-04-21T05:00:00Z
 image: "images/posts/b5.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
-tags: ["Teaching", "Ai", "Learning"]
+tags: ["Teaching", "Ai", "Privacy", "Psychology"]
 draft: false
 
 ---
 
----
+
 
 #### The Learning Scientists: The Potential and Perils of Artificial Intelligence in Education
 

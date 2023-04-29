@@ -3,6 +3,7 @@ title: "Agile Education: A New Approach to Teaching and Learning"
 meta_title: "MyWebClass.org | Agile Education: A New Approach to Teaching and Learning"
 layout: "about"
 draft: false
+tags: ["Agile", "Education", "Collaboration"]
 
 # social sites
 social:

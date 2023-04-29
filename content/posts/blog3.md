@@ -6,12 +6,12 @@ date: 2023-04-21T05:00:00Z
 image: "images/posts/b3.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
-tags: ["Teaching", "Ai", "Learning"]
+tags: ["Teaching", "Ai", "Technology"]
 draft: false
 
 ---
 
----
+
 
 #### The EdTech Podcast: How AI is Transforming Learning and Teaching 
 
