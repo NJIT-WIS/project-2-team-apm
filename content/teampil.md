@@ -16,6 +16,11 @@ social:
 
 #### Team Member Profile
 
+Pil Jang graduated from Rutgers University - New Brunswick with a B.A. in Communication and minor in sociology.
+
+After graduating, he worked at AIG as a marketing assistant and changed career path towards the IT industry.  
+
+He is currently pursuing his Master of Science in Information Systems at NJIT and is on track to graduate in 2024.
 
 ---
 
