@@ -5,8 +5,13 @@ import path from 'path';
 const baseUrl = 'https://njit-wis.github.io/project-2-team-apm/';
 const contentDir = path.join(process.cwd(), 'content');
 
-const getPages = (dir) => {
+const getFilesInDirectory = (dir) => {
   const files = fs.readdirSync(dir);
+  return files.filter(file => fs.statSync(path.join(dir, file)).isFile());
+};
+
+const getPages = (dir) => {
+  const files = getFilesInDirectory(dir);
   return files.map(file => {
     const fileContent = fs.readFileSync(path.join(dir, file), 'utf8');
     const match = fileContent.match(/(?<=^title:\s+).+/m);
