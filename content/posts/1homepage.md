@@ -20,4 +20,3 @@ As we continue to embrace the ever-evolving world of education, innovative AI-dr
 Subscribe to our newsletter below to receive updates about MyWebClass.org or checkout our GitHub repo under the Resources tab above to join the movement!
 
 
-
