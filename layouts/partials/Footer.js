@@ -13,12 +13,6 @@ const Footer = () => {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-
-    if (!checkboxChecked) {
-      alert("Please check the box to confirm your subscription.");
-      return;
-    }
-
     const form = event.target;
     form.action = `https://njit.us21.list-manage.com/subscribe/post?u=7d11727fe19a05ff0c992a7d8&amp;id=ee9ffaca2f&amp;f_id=0037ade1f0&EMAIL=${email}`;
     form.submit();
@@ -28,11 +22,6 @@ const Footer = () => {
 
   const handleInputChange = (event) => {
     setEmail(event.target.value);
-  };
-
-  const handleCheckboxChange = (event) => {
-    setCheckboxChecked(event.target.checked);
-  };
 
   return (
     <footer className="section bg-theme-dark">
@@ -48,10 +37,8 @@ const Footer = () => {
           ))}
         </ul>
         {/* email submission */}
-        <form onSubmit={handleFormSubmit} method="post" className="mb-8 md:w-4/5" id = "emailForm">
-          <label htmlFor="email" className="block mb-2 text-light font-bold">
-            Subscribe to our newsletter:
-          </label>
+        <form onSubmit={handleFormSubmit} method="post" className="mb-8 md:w-1/4">
+          <label htmlFor="email" className="block mb-2 text-light font-bold">Subscribe to our newsletter:</label>
           <div className="flex items-center">
             <input
               type="email"
