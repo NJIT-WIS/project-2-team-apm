@@ -80,7 +80,7 @@ const Footer = () => {
               className="mr-2"
             />
             <label htmlFor="confirm-subscription" className="text-light">
-              I agree to receive marketing communications from your company.
+              I agree to receive marketing communications from your company and that I have read the Privacy Policy
             </label>
           </div>
         </form>
