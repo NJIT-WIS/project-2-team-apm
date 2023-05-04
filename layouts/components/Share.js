@@ -15,7 +15,8 @@ const Share = ({ title, description, slug, className }) => {
       <li className="inline-block">
         <a
           aria-label="facebook share button"
-          href={`https://facebook.com/sharer/sharer.php?u=${base_url}/${slug}`}
+
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(postContent)}`}
           target="_blank"
           rel="noreferrer noopener"
           button="true"
