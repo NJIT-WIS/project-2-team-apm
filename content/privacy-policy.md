@@ -46,6 +46,10 @@ We use Google Analytics to collect information about your use of our website. Go
                         information collected by Google Analytics about your visits to our website is restricted by the
                         Google Analytics Terms of Use and the Google Privacy Policy.
 
+## Children's Online Privacy Protection Act (COPPA) Compliance
+
+If you collect email addresses from children under the age of 13, you must comply with the Children's Online Privacy Protection Act (COPPA), which requires you to obtain parental consent before collecting any personal information from children. By signing up for our newsletter, if you are under the age of 13, you certify that you have obtained parental consent to provide us with your personal information, in compliance with COPPA.
+
 #### ARIA
 
 We use ARIA on websites to improve their accessibility for people with disabilities. ARIA provides additional information 

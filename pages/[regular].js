@@ -65,7 +65,7 @@ export const getStaticProps = async ({ params }) => {
   // get posts folder slug for filtering
   const getPostSlug = getSinglePage(`content/${blog_folder}`);
   const postSlug = getPostSlug.map((item) => item.slug);
-  // aughor data
+  // author data
   const authors = getSinglePage("content/authors");
   // all single pages
   const posts = getSinglePage(`content/${blog_folder}`);
