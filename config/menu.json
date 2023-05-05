@@ -4,6 +4,10 @@
       "name": "Home",
       "url": "/"
     },
+       {
+            "name": "Download our repository",
+            "url": "/getting-started"
+          },
     {
       "name": "About",
       "hasChildren": true,
@@ -25,20 +29,6 @@
                       "url": "/teampil"
                     }
                   ]
-    },
-   {
-      "name": "Resources",
-      "hasChildren": true,
-      "children": [
-        {
-            "name": "Download our repository",
-            "url": "/getting-started"
-          },
-                  {
-            "name": "Blog 1",
-            "url": "/blog1"
-          }
-      ]
     },
     {
       "name": "Blogs",
