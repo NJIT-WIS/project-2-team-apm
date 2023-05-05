@@ -46,6 +46,7 @@ We use Google Analytics to collect information about your use of our website. Go
                         information collected by Google Analytics about your visits to our website is restricted by the
                         Google Analytics Terms of Use and the Google Privacy Policy.
 
+
 #### Children's Online Privacy Protection Act (COPPA) Compliance: 
 At MyWebClass.org, we are committed to complying with the Children's Online Privacy Protection Act (COPPA) to ensure the safety and privacy of children under the age of 13. When signing up for our newsletter, if you are under the age of 13, you are confirming that you have obtained parental permission to provide us with your personal information, including your email address. By doing so, you acknowledge that your parent or legal guardian has reviewed and agreed to our Privacy Policy. If you have any questions or concerns regarding our collection or use of personal information from children under the age of 13, please do not hesitate to contact us.
 
