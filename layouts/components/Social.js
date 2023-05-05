@@ -29,7 +29,7 @@ import {
   IoMail,
 } from "react-icons/io5";
 
-const Social = ({ source, className }) => {
+const Social = ({ source, className, title, slug }) => {
   const {
     facebook,
     twitter,
@@ -66,7 +66,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="facebook"
-            href={facebook}
+            href={`https://facebook.com/sharer/sharer.php?u=https://njit-wis.github.io/project-2-team-apm/${slug}`}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -78,7 +78,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="twitter"
-            href={twitter}
+            href={`https://twitter.com/intent/tweet/?text=Check%20out%20our%20AI%20education%20website!%0A&url=https://njit-wis.github.io/project-2-team-apm/`}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >

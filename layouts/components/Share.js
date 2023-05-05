@@ -26,7 +26,7 @@ const Share = ({ title, description, slug, className }) => {
       <li className="inline-block">
         <a
           aria-label="twitter share button"
-          href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=https://njit-wis.github.io/project-2-team-apm/${slug}`}
+          href={`https://twitter.com/intent/tweet/?text=Check%20out%20our%20AI%20education%20website!%0A&url=https://njit-wis.github.io/project-2-team-apm/${slug}`}
           target="_blank"
           rel="noreferrer noopener"
           button="true"
@@ -47,7 +47,7 @@ const Share = ({ title, description, slug, className }) => {
       <li className="inline-block">
         <a
           aria-label="pinterest share button"
-          href={`https://pinterest.com/pin/create/button/?url=${base_url}/${slug}&media=&description=${description}`}
+          href={`https://pinterest.com/pin/create/button/?url=https://njit-wis.github.io/project-2-team-apm/${slug}&media=&description=${description}`}
           target="_blank"
           rel="noreferrer noopener"
           button="true"

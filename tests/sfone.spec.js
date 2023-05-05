@@ -1,21 +1,9 @@
-const { chromium } = require('playwright');
+import { test, expect } from '@playwright/test';
 
-(async () => {
-  // Launch a Chromium browser instance
-  const browser = await chromium.launch();
-
-  // Create a new browser context
-  const context = await browser.newContext();
-
-  // Create a new page in the context
-  const page = await context.newPage();
-
-  // Navigate to a website
-  await page.goto('https://google.com');
-
-  // Take a screenshot of the page and save it to disk
-  await page.screenshot({ path: 'example.png' });
-
-  // Close the browser instance
-  await browser.close();
-})();
+test('test', async ({ page }) => {
+  await page.goto('https://njit-wis.github.io/project-2-team-apm/');
+  await page.getByRole('button', { name: 'allow cookies' }).click();
+  await page.getByRole('link', { name: 'Download our repository' }).click();
+  await page.getByRole('list').filter({ hasText: 'Open Visual Studio Code. Press Ctrl+Shift+P (or Cmd+Shift+P on Mac) to open the ' }).getByRole('link', { name: 'https://github.com/NJIT-WIS/project-2-team-apm' }).click();
+  await page.goto('https://github.com/NJIT-WIS/project-2-team-apm/');
+});
