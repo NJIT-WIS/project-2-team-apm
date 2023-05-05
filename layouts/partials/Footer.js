@@ -22,6 +22,11 @@ const Footer = () => {
 
   const handleInputChange = (event) => {
     setEmail(event.target.value);
+  };
+
+  const handleCheckboxChange = (event) => {
+    setCheckboxChecked(event.target.checked);
+  };
 
   return (
     <footer className="section bg-theme-dark">
@@ -37,8 +42,10 @@ const Footer = () => {
           ))}
         </ul>
         {/* email submission */}
-        <form onSubmit={handleFormSubmit} method="post" className="mb-8 md:w-1/4">
-          <label htmlFor="email" className="block mb-2 text-light font-bold">Subscribe to our newsletter:</label>
+        <form onSubmit={handleFormSubmit} method="post" className="mb-8 md:w-4/5">
+          <label htmlFor="email" className="block mb-2 text-light font-bold">
+            Subscribe to our newsletter:
+          </label>
           <div className="flex items-center">
             <input
               type="email"
@@ -81,5 +88,5 @@ const Footer = () => {
     </footer>
   );
 };
-{}
+
 export default Footer;
