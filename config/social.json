@@ -1,9 +1,9 @@
 {
-  "facebook": "https://facebook.com/",
-  "twitter": "https://twitter.com/",
-  "instagram": "https://instagram.com/",
+  "facebook": "https://facebook.com/sharer/sharer.php?u=https://njit-wis.github.io/project-2-team-apm/${slug}",
+  "twitter": "https://twitter.com/intent/tweet/?text=Check%20out%20our%20AI%20education%20website!%0A&url=https://njit-wis.github.io/project-2-team-apm",
+  "instagram": "",
   "youtube": "",
-  "linkedin": "",
+  "linkedin": "https://www.linkedin.com/shareArticle?mini=true&url=https://njit-wis.github.io/project-2-team-apm/",
   "github": "https://github.com/NJIT-WIS/project-2-team-apm",
   "gitlab": "",
   "medium": "",
