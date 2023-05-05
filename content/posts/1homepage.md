@@ -3,12 +3,12 @@
 title: "Welcome to MyWebClass"
 description: "meta description"
 date: 2023-04-21T05:00:00Z
-image: "images/posts/homepage.jpg"
+image: "/images/posts/homepage.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
 tags: ["Teaching", "Ai", "Personalized", "Learning"]
 draft: false
-
+ 
 ---
 Our world is changing rapidly, with the advent of the Fourth Industrial Revolution and the increasing influence of artificial intelligence (AI) in various aspects of our lives. Education, as a cornerstone of society, must adapt to prepare students for the challenges and opportunities that lie ahead. The factory school model, born during the Industrial Revolution, has long outlived its usefulness, and it is time for a paradigm shift. MyWebClass.org is a foundation dedicated to revolutionizing education by incorporating Agile and Lean principles into the classroom. By fostering creativity, adaptability, collaboration, and a lifelong learning mindset, MyWebClass.org seeks to prepare students for success in the AI-driven world.
 

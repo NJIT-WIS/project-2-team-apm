@@ -15,8 +15,7 @@ const Share = ({ title, description, slug, className }) => {
       <li className="inline-block">
         <a
           aria-label="facebook share button"
-
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(postContent)}`}
+          href={`https://facebook.com/sharer/sharer.php?u=https://njit-wis.github.io/project-2-team-apm/${slug}`}
           target="_blank"
           rel="noreferrer noopener"
           button="true"
@@ -27,7 +26,7 @@ const Share = ({ title, description, slug, className }) => {
       <li className="inline-block">
         <a
           aria-label="twitter share button"
-          href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=${base_url}/${slug}`}
+          href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=https://njit-wis.github.io/project-2-team-apm/${slug}`}
           target="_blank"
           rel="noreferrer noopener"
           button="true"
@@ -38,7 +37,7 @@ const Share = ({ title, description, slug, className }) => {
       <li className="inline-block">
         <a
           aria-label="linkedin share button"
-          href={`https://www.linkedin.com/shareArticle?mini=true&url=${base_url}/${slug}&title=${title}&summary=${description}&source=${base_url}`}
+          href={`https://www.linkedin.com/shareArticle?mini=true&url=https://njit-wis.github.io/project-2-team-apm/${slug}&title=${title}&summary=${description}&source=${base_url}`}
           target="_blank"
           rel="noreferrer noopener"
         >
