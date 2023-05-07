@@ -16,6 +16,10 @@
                     "name": "Our Mission",
                      "url": "/about"
                    },
+                  {
+                    "name": "How you can help",
+                     "url": "/volunteer"
+                   },
                    {
                       "name": "Michael Ellis",
                       "url": "/teammike"
