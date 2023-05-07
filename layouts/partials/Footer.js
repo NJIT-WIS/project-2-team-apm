@@ -10,10 +10,20 @@ const Footer = () => {
   const { copyright } = config.params;
   const [email, setEmail] = useState("");
   const [checkboxChecked, setCheckboxChecked] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
+    if (!checkboxChecked) {
+      setErrorMessage("Please agree to receive marketing communications and read our Privacy Policy.");
+      return;
+    }
     const form = event.target;
+    const emailParts = email.split('@');
+    if (emailParts.length !== 2 || !emailParts[1].includes('.')) {
+      setErrorMessage(`The domain portion of the email address is invalid (the portion after the @: ${emailParts[1]})`);
+      return;
+    }
     form.action = `https://njit.us21.list-manage.com/subscribe/post?u=7d11727fe19a05ff0c992a7d8&amp;id=ee9ffaca2f&amp;f_id=0037ade1f0&EMAIL=${email}`;
     form.submit();
     setEmail("");
@@ -26,6 +36,7 @@ const Footer = () => {
 
   const handleCheckboxChange = (event) => {
     setCheckboxChecked(event.target.checked);
+    setErrorMessage("");
   };
 
   return (
@@ -72,11 +83,13 @@ const Footer = () => {
               checked={checkboxChecked}
               onChange={handleCheckboxChange}
               className="mr-2"
+              required
             />
             <label htmlFor="confirm-subscription" className="text-light">
               I agree to receive marketing communications from your company and that I have read the Privacy Policy
             </label>
           </div>
+          {errorMessage && <p className="text-red-500">{errorMessage}</p>}
         </form>
       </div>
       {/* copyright */}

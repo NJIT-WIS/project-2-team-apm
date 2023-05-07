@@ -29,6 +29,7 @@ module.exports = defineConfig({
         browserName: 'chromium',
       },
       outputDir: path.join(__dirname, 'reports', 'desktop-chrome'),
+      testMatch: '**/*{desktop,all}.spec.js',
     },
     {
       name: 'Mobile iPhone 12',
@@ -37,60 +38,7 @@ module.exports = defineConfig({
         browserName: 'webkit',
       },
       outputDir: path.join(__dirname, 'reports', 'mobile-iphone-12'),
-    },
-    {
-      name: 'Desktop Firefox',
-      use: {
-        ...devices['Desktop Firefox'],
-        browserName: 'firefox',
-      },
-      outputDir: path.join(__dirname, 'reports', 'desktop-firefox'),
-      testMatch: '**/*_desktop.spec.js',
-    },
-    {
-      name: 'Desktop Chrome',
-      use: {
-        ...devices['Desktop Chrome'],
-        browserName: 'chromium',
-      },
-      outputDir: path.join(__dirname, 'reports', 'desktop-chrome'),
-      testMatch: '**/*_desktop.spec.js',
-    },
-    {
-      name: 'Desktop Safari',
-      use: {
-        ...devices['Desktop Safari'],
-        browserName: 'webkit',
-      },
-      outputDir: path.join(__dirname, 'reports', 'desktop-safari'),
-      testMatch: '**/*_desktop.spec.js',
-    },
-    {
-      name: 'Mobile iPhone 12',
-      use: {
-        ...devices['iPhone 12'],
-        browserName: 'webkit',
-      },
-      outputDir: path.join(__dirname, 'reports', 'mobile-iphone-12'),
-      testMatch: '**/*_mobile.spec.js',
-    },
-    {
-      name: 'Mobile Pixel 5',
-      use: {
-        ...devices['Pixel 5'],
-        browserName: 'chromium',
-      },
-      outputDir: path.join(__dirname, 'reports', 'mobile-pixel-5'),
-      testMatch: '**/*_mobile.spec.js',
-    },
-    {
-      name: 'Mobile Galaxy S21',
-      use: {
-        ...devices['Galaxy S21'],
-        browserName: 'chromium',
-      },
-      outputDir: path.join(__dirname, 'reports', 'mobile-galaxy-s21'),
-      testMatch: '**/*_mobile.spec.js',
+      testMatch: '**/*{mobile,all}.spec.js',
     },
     {
       name: 'Tablet iPad Pro',
@@ -99,16 +47,7 @@ module.exports = defineConfig({
         browserName: 'webkit',
       },
       outputDir: path.join(__dirname, 'reports', 'tablet-ipad-pro'),
-      testMatch: '**/*_tablet.spec.js',
-    },
-    {
-      name: 'Tablet Galaxy Tab S7',
-      use: {
-        ...devices['Galaxy Tab S7'],
-        browserName: 'chromium',
-      },
-      outputDir: path.join(__dirname, 'reports', 'tablet-galaxy-tab-s7'),
-      testMatch: '**/*_tablet.spec.js',
+      testMatch: '**/*{desktop,all}.spec.js',
     },
   ],
 
