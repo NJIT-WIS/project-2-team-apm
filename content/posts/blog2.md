@@ -1,7 +1,7 @@
 ---
 
 title: "Intelligent Tutoring Systems"
-description: "meta description"
+description: "Natural language AI for student interaction"
 date: 2023-04-21T05:00:00Z
 image: "images/posts/b2.jpg"
 categories: ["education", "ai"]

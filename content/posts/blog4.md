@@ -1,7 +1,7 @@
 ---
 
 title: "TeachThought: How Artificial Intelligence Is Impacting Education"
-description: "meta description"
+description: "Automating administrative tasks"
 date: 2023-04-21T05:00:00Z
 image: "images/posts/b4.jpg"
 categories: ["education", "ai"]

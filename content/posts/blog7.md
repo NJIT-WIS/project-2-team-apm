@@ -1,7 +1,7 @@
 ---
 
 title: "EdSurge: Artificial Intelligence is Coming to Higher Education. Are We Ready?"
-description: "meta description"
+description: "Automated grading and faculty training to use AI"
 date: 2023-04-21T05:00:00Z
 image: "images/posts/b7.jpg"
 categories: ["education", "ai"]

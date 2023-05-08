@@ -1,7 +1,7 @@
 ---
 
 title: "The Conversation: AI in Education: Are We Moving Too Fast?"
-description: "meta description"
+description: "Expert interviews on ethical considerations of using AI in the classroom"
 date: 2023-04-21T05:00:00Z
 image: "images/posts/b8.jpg"
 categories: ["education", "ai"]

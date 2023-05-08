@@ -1,7 +1,7 @@
 ---
 
 title: "EdTech Digest: The Rise of Artificial Intelligence in Education"
-description: "meta description"
+description: "examples of using AI in classrooms today"
 date: 2023-04-21T05:00:00Z
 image: "images/posts/b9.jpg"
 categories: ["education", "ai"]
