@@ -1,7 +1,7 @@
 ---
 
 title: "The Learning Scientists: The Potential and Perils of Artificial Intelligence in Education"
-description: "meta description"
+description: "Privacy loss and perpetuating bias"
 date: 2023-04-21T05:00:00Z
 image: "images/posts/b5.jpg"
 categories: ["education", "ai"]

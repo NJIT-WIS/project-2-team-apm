@@ -1,7 +1,7 @@
 ---
 
 title: "eLearning Industry: How AI is Revolutionizing Education"
-description: "meta description"
+description: "latest trends in eLearning"
 date: 2023-04-21T05:00:00Z
 image: "images/posts/b6.jpg"
 categories: ["education", "ai"]

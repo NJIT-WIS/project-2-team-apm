@@ -1,7 +1,7 @@
 ---
 
 title: "eSchool News: How AI is Changing the Landscape of Education"
-description: "meta description"
+description: "AI impact on the landscape of education"
 date: 2023-04-21T05:00:00Z
 image: "images/posts/b10.jpg"
 categories: ["education", "ai"]
