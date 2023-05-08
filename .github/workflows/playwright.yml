@@ -16,10 +16,10 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libgbm-dev         
+          sudo apt-get install -y libvpx7 libevent-2.1-7 libopus0 libwoff2dec1 libharfbuzz-icu0 libhyphen0 libmanette-0.2-0 libflite1 libflite-utils libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgles2-mesa libgbm-dev
           npm ci
           npx playwright install chromium
-          npm install -g lighthouse chrome-launcher axe-core chromium wait-on 
+          npm install -g lighthouse chrome-launcher axe-core chromium wait-on
           npm install next@latest
 
       - name: Create the build
