@@ -4,7 +4,7 @@
 | Create project document log                  | 2 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/19#issue-1675875334 | complete | Michael     |                                            | 
 | Add academic articles                        | 8 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/27                  | complete | Michael     |                                            | 
 | Add Favicon                                  | 3 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/9                   | complete | Pil         |                                            |    
-| Deploy site to GitHub                        | 3 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/37#issue-1680645757 |          | Pil         |                                            |  
+| Deploy site to GitHub                        | 3 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/37#issue-1680645757 | complete | Pil         |                                            |  
 | Implement error tracking                     | 3 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/21#issue-1675888961 |          | Michael     |                                            |  
 | Implement SEO: Meta tags, etc.               | 5 points    |                                                                           |          | Michael     |                                            |  
 | Implement OpenGraph & Twitter                | 8 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/22#issue-1675890026 |          | Avneet      |                                            |  
@@ -13,16 +13,16 @@
 | i18n Internationalization                    | 13 points   |                                                                           | N/A      | N/A         | Client deleted this requirement            |  
 | Create engaging content (academic articles)  | 8 points    |                                                                           |          | Michael     |                                            |  
 | Use Playwright for testing                   | 8 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/90#issue-1699207176 |          | Avneet      |                                            |  
-| Research email law re: subscriptions         | 3 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/80#issue-1693347274 |          | Pil         |                                            |  
+| Research email law re: subscriptions         | 3 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/80#issue-1693347274 | complete | Pil         |                                            |  
 | Ensure 508 compliance                        | 5 points    |                                                                           |          | Michael     |                                            |  
 | Implement responsive design for all devices  | 5 points    |                                                                           | N/A      | N/A         | issue resolved after implementing template |  
 | Implement form for email collection          | 8 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/62#issue-1689046836 |          | Avneet      |                                            |  
-| Implement blog section that renders markdown | 8 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/39#issue-1680648351 |          | Pil         |                                            |  
+| Implement blog section that renders markdown | 8 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/39#issue-1680648351 | complete | Pil         |                                            |  
 | Implement social media sharing               | 5 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/49#issue-1684162065 |          | Avneet      |                                            |  
 | Develop GitHub actions for testing           | 13 points   |                                                                           |          | Avneet      |                                            |  
-| Integrate Google Analytics                   | 13 points   | https://github.com/NJIT-WIS/project-2-team-apm/issues/41#issue-1680649650 |          | Pil         |                                            |  
+| Integrate Google Analytics                   | 13 points   | https://github.com/NJIT-WIS/project-2-team-apm/issues/41#issue-1680649650 | complete | Pil         |                                            |  
 | Provide for continuous site improvement      | 3 points    |                                                                           |          | Avneet      |                                            |  
-| Develop backup/recovery plan                 | 5 points    |                                                                           |          | Pil         |                                            |  
+| Develop backup/recovery plan                 | 5 points    | https://github.com/NJIT-WIS/project-2-team-apm/issues/93#issue-1699456818 | complete | Pil         |                                            |  
 |                                              | 8 points    |                                                                           |          |             |                                            |  
 |                                              | 8 points    |                                                                           |          |             |                                            |  
 |                                              | 8 points    |                                                                           |          |             |                                            |  
