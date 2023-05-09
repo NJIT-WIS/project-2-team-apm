@@ -3,7 +3,7 @@
 title: "Welcome to MyWebClass.org"
 description: "landing page with welcome message and directions to download repo or sign up for newsletter"
 date: 2023-04-21T05:00:00Z
-image: "images/posts/homepage.jpg"
+image: "/images/posts/homepage.jpg"
 categories: ["education", "ai"]
 authors: ["Mark Dinn"]
 tags: ["Teaching", "Ai", "Personalized", "Learning"]
@@ -17,6 +17,6 @@ As we continue to embrace the ever-evolving world of education, innovative AI-dr
 
 ***
 
-Subscribe to our newsletter below to receive updates about MyWebClass.org or download our GitHub repository using the download link above to join the movement!
+Subscribe to our newsletter below to receive updates about MyWebClass.org or download our GitHub repository using the download link above to join the movement! 
 
 
