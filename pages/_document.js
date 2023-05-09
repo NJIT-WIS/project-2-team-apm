@@ -13,21 +13,7 @@ const CustomDocument = () => {
         {/* favicon */}
         <link rel="shortcut icon" href="images/favicon.ico" />
 
-        <div>
-        {/* theme meta */}
-        <meta name="theme-name" content="bookworm-light-nextjs" />
-        <meta name="msapplication-TileColor" content="#000000" />
-        <meta
-          name="theme-color"
-          media="(prefers-color-scheme: light)"
-          content="#fff"
-        />
-        <meta
-          name="theme-color"
-          media="(prefers-color-scheme: dark)"
-          content="#000"
-        />
-        </div>
+
         {/* Google Analytics Start */}
           <script
             dangerouslySetInnerHTML={{

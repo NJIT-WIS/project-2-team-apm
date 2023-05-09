@@ -3,18 +3,11 @@ import dateFormat from "@lib/utils/dateFormat";
 import { humanize, slugify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
-import SEO from "../components/SEO";
 
 const Posts = ({ title, description, image, categories, tags, posts, authors, className, slug }) => {
   const { summary_length } = config.settings;
   return (
     <>
-      <SEO
-        title={title}
-        description={description}
-        image={image}
-        url="https://njit-wis.github.io/project-2-team-apm/{slug}"
-      />
       <div className={`row space-y-16 ${className}`}>
         {posts.map((post, i) => (
           <div
