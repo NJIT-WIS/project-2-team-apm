@@ -42,6 +42,28 @@ jobs:
           if [ ! -d "test-results" ]; then
             mkdir test-results
           fi
+
+      - name: Delete Old Artifacts
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const res = await github.rest.actions.listArtifactsForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            })
+
+            res.data.artifacts
+              .filter(({ name }) => name === 'package')
+              .forEach(({ id }) => {
+                github.rest.actions.deleteArtifact({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  artifact_id: id,
+                })
+              })
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+
       - name: Generate Lighthouse Report
         run: |
           lighthouse http://localhost:3000 --output html --output-path ./test-results/report.html --chrome-flags="--headless --no-sandbox --disable-gpu"
