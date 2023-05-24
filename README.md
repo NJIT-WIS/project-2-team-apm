@@ -12,7 +12,7 @@ Please READ everything I am giving you and everyone needs to submit in Canvas.
 [Introduction to the Psychology of Web Design])[https://youtu.be/uo969JG6M-o]
 
 ## Project Requirements
-# Introduction to the Project and Grading System
+# Introduction to the Project and Grading System 
 
 Dear students, welcome to the project! In this project, you will be working together as a team to build a web application that meets specific requirements. The project has three levels of difficulty, which roughly correspond to IS218/601 (Basic), IS219 (Intermediate), and IS421 (Advanced).
 
